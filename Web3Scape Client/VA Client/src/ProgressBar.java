@@ -89,7 +89,7 @@ public class ProgressBar extends JFrame {
         this.setFont(new Font("Helvetica", 1, 16));
         this.getContentPane().add(progessbar, BorderLayout.CENTER);
         this.setSize(350, 100);
-        this.setTitle("Vencillio Updater");
+        this.setTitle("Web3Scape Updater");
         this.setResizable(false);
         this.setLocationRelativeTo(null);
         this.setVisible(true);

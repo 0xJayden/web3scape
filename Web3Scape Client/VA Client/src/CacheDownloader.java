@@ -58,8 +58,8 @@ public class CacheDownloader implements Runnable {
 		strBuff.append("Please copy the error code and contact us via forums for assistantce.\r\n");
 		strBuff.append("http://www.vencillio.com\r\n\r\n");		
 		strBuff.append("Error Code: [" + e.getClass().getSimpleName() + "]");
-		alert("Vencillio", strBuff.toString(), true);
-		int option = JOptionPane.showConfirmDialog(null, "Would you like to visit our forums?", "Vencillio Error", JOptionPane.YES_NO_OPTION);
+		alert("Web3Scape", strBuff.toString(), true);
+		int option = JOptionPane.showConfirmDialog(null, "Would you like to visit our forums?", "Web3Scape Error", JOptionPane.YES_NO_OPTION);
 		if (option == 0) {
 			client.openURL("http://www.vencillio.com");
 		} else {
@@ -86,13 +86,13 @@ public class CacheDownloader implements Runnable {
 				StringBuilder strBuff = new StringBuilder();
 				strBuff.append("Update version " + newest + " has been found!\n");
 				strBuff.append("Client will now automatically update.");
-				alert("Vencillio", strBuff.toString(), true);
+				alert("Web3Scape", strBuff.toString(), true);
 
 				new ProgressBar();
 				updateClient();
 				
-				client.drawLoadingText(0, "Vencillio has been updated!");
-				alert("Vencillio", "Download finished! Restart the Client to start playing!", false);
+				client.drawLoadingText(0, "Web3Scape has been updated!");
+				alert("Web3Scape", "Download finished! Restart the Client to start playing!", false);
 				OutputStream out = new FileOutputStream(VERSION_FILE);
 				out.write(String.valueOf(newest).getBytes());
 				Runtime.getRuntime().exec("java -jar myApp.jar");
@@ -155,7 +155,7 @@ public class CacheDownloader implements Runnable {
 		percent = amount;
 		ProgressBar.updateValue(amount);
 		ProgressBar.updateString("(1/2) Downloading cache - " + ProgressBar.getValue() + "%");
-		client.drawLoadingText(amount, "(1/2) Downloading VencillioCache" + " - " + amount + "%");
+		client.drawLoadingText(amount, "(1/2) Downloading Web3ScapeCache" + " - " + amount + "%");
 
 	}
 
@@ -165,7 +165,7 @@ public class CacheDownloader implements Runnable {
 		percent2 = amount2;
 		ProgressBar.updateValue(amount2);
 		ProgressBar.updateString("(2/2) Extracting cache - " + ProgressBar.getValue() + "%");
-		client.drawLoadingText(amount2, "(2/2) Extracting VencillioCache" + " - " + amount2 + "%");
+		client.drawLoadingText(amount2, "(2/2) Extracting Web3ScapeCache" + " - " + amount2 + "%");
 	}
 
 	private File downloadClient() {

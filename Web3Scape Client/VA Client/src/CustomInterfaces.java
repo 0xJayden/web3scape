@@ -359,7 +359,7 @@ public class CustomInterfaces extends RSInterface {
 		addHoveredButton(56003, 18, 21, 21, 56004);	
 		addText(56005, "Account Security Management", daniel, 2, 0xff9933, true, true);
 		addText(56006, "Please answer the following prompts to ensure a safe account.", daniel, 0, 0xff9933, true, true);
-		addText(56007, "Having a safe account is crucial in the world of Vencillio.", daniel, 0, 0xff9933, true, true);
+		addText(56007, "Having a safe account is crucial in the world of Web3Scape.", daniel, 0, 0xff9933, true, true);
 		addText(56008, "Make sure to write all this information down!", daniel, 0, 0xff9933, true, true);
 		addText(56009, "Full Name", daniel, 2, 0xff9933, true, true);
 		addText(56010, "Email Address:", daniel, 2, 0xff9933, true, true);
@@ -609,7 +609,7 @@ public class CustomInterfaces extends RSInterface {
 		
 		String[] rules = { 
 			"Offensive language", "Item scamming", "Password scamming", "Bug abuse",
-			"Vencillio staff impersonation", "Account sharing/trading", "Macroing", "Multiple logging in",
+			"Web3Scape staff impersonation", "Account sharing/trading", "Macroing", "Multiple logging in",
 			"Advertising", "Real world trading", "Misuse of customer support", "Encouraging others to break rules",
 		};
 		
@@ -823,7 +823,7 @@ public class CustomInterfaces extends RSInterface {
 		RSInterface Interface = addInterface(51750);
 		
 		addSprite(51751, 431);
-		addText(51752, "Vencillio Account Setup", 0xff9933, true, true, 52, daniel, 2);
+		addText(51752, "Web3Scape Account Setup", 0xff9933, true, true, 52, daniel, 2);
 		addHoverButton(51753, 17, 21, 21, "Close", 250, 51754, 3);
 		addHoveredButton(51754, 18, 21, 21, 51755);
 		addText(51756, "Select Your Game Mode:", 0xff9933, true, true, 52, daniel, 1);
@@ -939,7 +939,7 @@ public class CustomInterfaces extends RSInterface {
 		RSInterface Interface = addInterface(61250);
 		addSprite(61251, 82);
 		addSprite(61252, 38);
-		addText(61253, "VencillioPK Spawn Tab", daniel, 0, 0xF7AA25, true, true);
+		addText(61253, "Web3ScapePK Spawn Tab", daniel, 0, 0xF7AA25, true, true);
 		addInputField(61250, 61254, 20, 0x332E24, 0x4D4636, 0x383631, 0x474540, "", 180, 23, false, false, "");
 		addInputField(61250, 61255, 20, 0x332E24, 0x4D4636, 0x383631, 0x474540, "1", 180, 23, true, false, "");
 		addText(61257, "Item name:", daniel, 0, 0xF7AA25, false, true);
@@ -1086,7 +1086,7 @@ public class CustomInterfaces extends RSInterface {
 		addText(id + 5, "Title Shop", tda, 0, 0xe6be78, true, true);
 		addSprite(id + 6, 407);
 		addText(id + 7, "Credits", tda, 0, 0xe6be78, false, true);
-		addText(id + 8, "Welcome to the Vencillio title shop.", tda, 0, 0xe6be78, false, true);
+		addText(id + 8, "Welcome to the Web3Scape title shop.", tda, 0, 0xe6be78, false, true);
 
 		shop.totalChildren(8 + shopCategories.length * 3);
 		for (int index = 0, frame = 0, configOffset = 0; index < shopCategories.length * 3; index += 3) {
@@ -1183,7 +1183,7 @@ public class CustomInterfaces extends RSInterface {
 	public static void bankSettings(TextDrawingArea[] vencillio) {
 		RSInterface tab = addInterface(32500);
 		addSprite(32501, 368);
-		addText(32502, "Vencillio Bank Settings", 0xff9933, true, true, -1, vencillio, 2);
+		addText(32502, "Web3Scape Bank Settings", 0xff9933, true, true, -1, vencillio, 2);
 		addHoverButton(32503, 17, 21, 21, "Close", 250, 32504, 3);
 		addHoveredButton(32504, 18, 21, 21, 32505);
 		addConfigButton(32506, 32500, 289, 290, 14, 15, "Select", 0, 5, 1011);
@@ -1758,7 +1758,7 @@ public class CustomInterfaces extends RSInterface {
 		addSprite(16126, 291);
 		addSprite(16127, 292);
 		addText(5067, "Friends List", tda, 1, 0xff9933, true, true);
-		addText(5070, "   Vencillio", tda, 0, 0xff9933, false, true);
+		addText(5070, "   Web3Scape", tda, 0, 0xff9933, false, true);
 		addText(5071, "", tda, 0, 0xff9933, false, true);
 		addHoverButton(5068, 293, 29, 29, "Add Name", 201, 5072, 1);
 		addHoveredButton(5072, 294, 29, 29, 5073);
@@ -1802,7 +1802,7 @@ public class CustomInterfaces extends RSInterface {
 		RSInterface tab = addTabInterface(5715);
 		RSInterface list = interfaceCache[5716];
 		addText(5717, "Ignore List", tda, 1, 0xff9933, true, true);
-		addText(5720, "   Vencillio", tda, 0, 0xff9933, false, true);
+		addText(5720, "   Web3Scape", tda, 0, 0xff9933, false, true);
 		addText(5721, "", tda, 0, 0xff9933, false, true);
 		addHoverButton(5718, 297, 29, 29, "Add Name", 501, 5722, 1);
 		addHoveredButton(5722, 298, 29, 29, 5723);
@@ -2034,7 +2034,7 @@ public class CustomInterfaces extends RSInterface {
 		addText(17008, "Mystery Box is a gambling minigame where you can bet 1 credit.", daniel, 0, 0xF7AA25, true, true);
 		addText(17009, "Rewards can vary from items worth @gre@1,000</col> - @gre@100,000,000</col> coins!", daniel, 0, 0xF7AA25, true, true);
 		addText(17010, "Good luck, may the odds be ever in your favor.", daniel, 0, 0xF7AA25, true, true);
-		addHoverText(17011, "Purchase more credits", "Purchase Vencillio credits", daniel, 0, 0xF7AA25, false, true, 168);
+		addHoverText(17011, "Purchase more credits", "Purchase Web3Scape credits", daniel, 0, 0xF7AA25, false, true, 168);
 		
 		addText(17012, "Play", daniel, 2, 0xF7AA25, true, true);
 		rsinterface.totalChildren(15);
@@ -2305,10 +2305,10 @@ public class CustomInterfaces extends RSInterface {
 	public static void creditsTab(TextDrawingArea[] daniel) {
 		RSInterface tab = addInterface(52500);
 		addSprite(52501, 38);
-		addText(52502, "Vencillio Credits", 0xff9933, true, true, -1, daniel, 2);
+		addText(52502, "Web3Scape Credits", 0xff9933, true, true, -1, daniel, 2);
 		addSprite(52503, 55);
 		addText(52504, "Current credits:", 0xff9933, true, true, -1, daniel, 0);
-		addHoverText(52505, "Purchase more credits", "Purchase Vencillio credits", daniel, 0, 0xF7AA25, true, true, 168);
+		addHoverText(52505, "Purchase more credits", "Purchase Web3Scape credits", daniel, 0, 0xF7AA25, true, true, 168);
 		addSprite(52506, 56);
 		tab.totalChildren(9);
 		tab.child(0, 52501, 0, 25);
@@ -3620,8 +3620,8 @@ public class CustomInterfaces extends RSInterface {
 		RSInterface tab = addTabInterface(29400);
 		addSprite(29401, 82);
 		addSprite(29402, 38);
-		addText(29403, "Vencillio", vencillio, 2, 0xF7AA25, true, true);
-		addText(29407, "Www.Vencillio.Com", vencillio, 2, 0xF7AA25, true, true);
+		addText(29403, "Web3Scape", vencillio, 2, 0xF7AA25, true, true);
+		addText(29407, "Www.Web3Scape.Com", vencillio, 2, 0xF7AA25, true, true);
 		addHoverButton(29404, 84, 25, 25, "Achievement diary", -1, 29405, 1);
 		addHoveredButton(29405, 85, 25, 25, 29406);
 		addHoverButton(29410, 351, 15, 15, "Refresh", -1, 29411, 1);

@@ -119,8 +119,8 @@ public class LoginRenderer {
 	};
 	
 	private String world[] = { 
-		"Vencillio Economy - Main world", 
-		"Vencillio PK - Coming soon", 
+		"Web3Scape Economy - Main world", 
+		"Web3Scape PK - Coming soon", 
 		"Development World - Developers only" ,
 		"Staff World - Staff member access only"
 	};
@@ -298,10 +298,10 @@ public class LoginRenderer {
 	}
 	
 	private String[] announcements = { 
-		"Welcome to Vencillio!", 
-		"Developers are: Daniel, Chex, Seven & Zion.", 
-		"Vote every 12 hours for great rewards!", 
-		"Want to support Vencillio? Purchase membership!"
+		"Welcome to Web3Scape!", 
+		"Developers are: Haoryan and 0xJayden.", 
+		"Guard the Tower!", 
+		"Want to support Web3Scape? Please donate!"
 	};
 	
 	int ticks = 0;

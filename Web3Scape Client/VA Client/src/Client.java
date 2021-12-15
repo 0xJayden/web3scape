@@ -2718,7 +2718,7 @@ public class Client extends ClientEngine {
 		socketStream = null;
 		loggedIn = false;
 		loginScreenState = 0;
-		loginMessage1 = "Welcome to Vencillo";
+		loginMessage1 = "Welcome to Web3Scape";
 		loginMessage2 = "Enter in your account details and begin playing!";
 		if (!rememberMe) {
 			myUsername = "";
@@ -7305,7 +7305,7 @@ public class Client extends ClientEngine {
 				return;
 			}
 			if (k == 6) {
-				loginMessage1 = "Vencillio has been updated!";
+				loginMessage1 = "Web3Scape has been updated!";
 				loginMessage2 = "Please download the newest client.";
 				openURL("http://www.vencillio.com/downloads/Client.jar");
 				return;
@@ -13609,7 +13609,7 @@ public class Client extends ClientEngine {
 		rsAlreadyLoaded = false;
 		welcomeScreenRaised = false;
 		messagePromptRaised = false;
-		loginMessage1 = "Welcome to Vencillo";
+		loginMessage1 = "Welcome to Web3Scape";
 		loginMessage2 = "Enter in your account details and begin playing!";
 		backDialogID = -1;
 		anInt1279 = 2;

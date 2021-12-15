@@ -531,7 +531,7 @@ public class ClientEngine extends Applet implements Runnable, ActionListener, Mo
 			mouseWheelY = y;
 			return;
 		}
-		if (e.isMetaDown()) {
+		if (type == 3) {
 			clickType = RIGHT;
 			clickMode1 = 2;
 			clickMode2 = 2;
