@@ -25,7 +25,7 @@ public class VencillioConstants {
 	/**
 	 * Checks if the world is staff only
 	 */
-	public static boolean STAFF_ONLY = true;
+	public static boolean STAFF_ONLY = false;
 	
 	/**
 	 * Check to see if double experience is enabled
