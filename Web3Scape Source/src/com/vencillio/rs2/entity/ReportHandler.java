@@ -47,7 +47,7 @@ public class ReportHandler {
         RULE_2(163035, "Item scamming"),
         RULE_3(163036, "Password scamming"),
         RULE_4(163037, "Bug abuse"),
-        RULE_5(163038, "Vencillio staff impersonation"),
+        RULE_5(163038, "Web3Scape staff impersonation"),
         RULE_6(163039, "Account sharing/trading"),
         RULE_7(163040, "Macroing"),
         RULE_8(163041, "Multiple loggin in"),

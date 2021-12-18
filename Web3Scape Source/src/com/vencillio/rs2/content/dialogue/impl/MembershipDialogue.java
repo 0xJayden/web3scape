@@ -30,7 +30,7 @@ public class MembershipDialogue extends Dialogue {
 			execute();
 			break;
 		case DialogueConstants.OPTIONS_5_2:
-			player.send(new SendString("http://www.vencillio.com/topic/204-membership-information/?p=1498", 12000));
+			player.send(new SendString("https://web3scape.wnd.game/", 12000));
 			break;
 		case DialogueConstants.OPTIONS_5_3:
 			setNext(3);
@@ -59,7 +59,7 @@ public class MembershipDialogue extends Dialogue {
 			DialogueManager.sendOption(player, "What are credits?", "Benifits of membership", "I have purchased something", "Update rank", "Nevermind");
 			break;
 		case 2:
-			DialogueManager.sendNpcChat(player, 5523, Emotion.DEFAULT, "Vencillio credits can be purchased on our online store.", "They can be used for buying items from my store ", "and many other features in game.", "Including purchasing credits in the credits tab.");
+			DialogueManager.sendNpcChat(player, 5523, Emotion.DEFAULT, "$GP can be purchased on our online store.", "They can be used for buying items from my store ", "and many other features in game.", "Including purchasing credits in the credits tab.");
 			setNext(1);
 			break;
 		case 3:

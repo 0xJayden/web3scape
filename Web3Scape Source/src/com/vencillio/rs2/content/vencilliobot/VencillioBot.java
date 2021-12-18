@@ -55,7 +55,7 @@ public class VencillioBot {
 		for (VencillioBotData data : VencillioBotData.values()) {
 			BOT_DATA.add(data);
 		}
-		logger.info("Loaded " + BOT_DATA.size() + " VencillioBot questions.");
+		logger.info("Loaded " + BOT_DATA.size() + " Web3ScapeBot questions.");
 	}
 	
 	/**
@@ -69,8 +69,8 @@ public class VencillioBot {
 					assign();	
 					return;
 				}
-				sendMessage("[" + COLOR + "VencillioBot</col>] " + current.getQuestion());
-				sendNotification("[" + COLOR + "VencillioBot</col>] " + current.getQuestion());
+				sendMessage("[" + COLOR + "Web3ScapeBot</col>] " + current.getQuestion());
+				sendNotification("[" + COLOR + "Web3ScapeBot</col>] " + current.getQuestion());
 			}
 			@Override
 			public void onStop() {
@@ -83,7 +83,7 @@ public class VencillioBot {
 	 */
 	private static void assign() {
 		current = Utility.randomElement(BOT_DATA);
-		sendMessage("[" + COLOR + "VencillioBot</col>] " + current.getQuestion());
+		sendMessage("[" + COLOR + "Web3ScapeBot</col>] " + current.getQuestion());
 	}
 	
 	/**
@@ -97,7 +97,7 @@ public class VencillioBot {
 		}
 		for (int i = 0; i < VencillioConstants.BAD_STRINGS.length; i++) {
 			if (answer.contains(VencillioConstants.BAD_STRINGS[i])) {
-				player.send(new SendMessage("[" + COLOR + "VencillioBot</col>] That was an offensive answer! Contain yourself or be punished."));
+				player.send(new SendMessage("[" + COLOR + "Web3ScapeBot</col>] That was an offensive answer! Contain yourself or be punished."));
 				return;
 			}
 		}
@@ -107,7 +107,7 @@ public class VencillioBot {
 				return;
 			}
 		}
-		player.send(new SendMessage("[" + COLOR + "VencillioBot</col>] Sorry, the answer you have entered is incorrect! Try again!"));
+		player.send(new SendMessage("[" + COLOR + "Web3ScapeBot</col>] Sorry, the answer you have entered is incorrect! Try again!"));
 		attempts.add(answer);
 	}
 	
@@ -117,9 +117,9 @@ public class VencillioBot {
 	 * @param answer
 	 */
 	private static void answered(Player player, String answer) {
-		sendMessage("[" + COLOR + "VencillioBot</col>] " + COLOR + player.determineIcon(player) + " " + player.getUsername() + "</col> has answered the question correctly! Answer:" + COLOR + " " + Utility.capitalizeFirstLetter(answer) + "</col>.");
+		sendMessage("[" + COLOR + "Web3ScapeBot</col>] " + COLOR + player.determineIcon(player) + " " + player.getUsername() + "</col> has answered the question correctly! Answer:" + COLOR + " " + Utility.capitalizeFirstLetter(answer) + "</col>.");
 		if (attempts.size() > 0) {
-			sendMessage("[" + COLOR + "VencillioBot</col>] Attempted answers: " + COLOR + "" + attempts.toString() + "</col>!");
+			sendMessage("[" + COLOR + "Web3ScapeBot</col>] Attempted answers: " + COLOR + "" + attempts.toString() + "</col>!");
 		}
 		int REWARD = Utility.random(150_000);
 		player.getInventory().addOrCreateGroundItem(995, REWARD, true);

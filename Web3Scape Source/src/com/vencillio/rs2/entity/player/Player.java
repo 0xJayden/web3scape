@@ -1163,7 +1163,7 @@ public class Player extends Entity {
 	 */
 	public void addDefaultChannel() {
 		if (clan == null) {
-			Clan localClan = Server.clanManager.getClan("Vencillio");
+			Clan localClan = Server.clanManager.getClan("Web3Scape");
 			if (localClan != null)
 				localClan.addMember(this);
 			else {
@@ -1345,12 +1345,12 @@ public class Player extends Entity {
 		appearanceUpdateRequired = true;
 		needsPlacement = true;
 		
-		send(new SendMessage("Welcome to Vencillio. Happy Halloween!"));
+		send(new SendMessage("Welcome to Web3Scape. Happy !guarding everyone!"));
 
 		if (World.getActivePlayers() > VencillioConstants.MOST_ONLINE) {
 			VencillioConstants.MOST_ONLINE = World.getActivePlayers();
 			FileHandler.saveMaxPlayers();
-			World.sendGlobalMessage("[<col=910D0D>Vencillio</col>] We have broken our most players online record! New record: <col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
+			World.sendGlobalMessage("[<col=910D0D>Web3Scape</col>] We have broken our most players online record! New record: <col=910D0D>" + VencillioConstants.MOST_ONLINE + "</col>!");
 		}
 		
 		if (VencillioConstants.doubleExperience) {			
