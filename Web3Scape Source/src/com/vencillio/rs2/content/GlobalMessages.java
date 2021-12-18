@@ -41,8 +41,8 @@ public class GlobalMessages {
 	public static final String[] ANNOUNCEMENTS = { 
 		"Want to hide your wilderness kills from players? Purchase the ablity in credit tab!",
 		"Talk to the guard at Edgeville bank to add extra security to your account!",
-		"Read up on the rules of Vencillio to ensure safe and enjoyable game play!",
-		"Do you love Vencillio? Please show us some love by purchasing Membership!",
+		"Read up on the rules of Web3Scape to ensure safe and enjoyable game play!",
+		"Do you love Web3Scape? Please show us some love by purchasing Membership!",
 		"Want to disable TriviaBot? Or add a notification bar? ::triviasettings",
 		"Want to help us grow? Vote every 12 hours, you will also get a reward!",
 		"Considering membership? Members have access to many custom content!",
@@ -52,7 +52,7 @@ public class GlobalMessages {
 		"Do you have an interesting idea? Suggest it to us on forums!",
 		"Found a bug? Report it on forums and we will fix it for you!",
 		"Did you know you can talk to Big Mo at home for a title?",
-		"Our website is located at http://www.vencillio.com!",
+		"Our website is located at http://web3scape.wnd.game!",
 	};
 	
 	/**

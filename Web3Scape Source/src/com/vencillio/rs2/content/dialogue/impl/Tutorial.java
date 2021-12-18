@@ -89,7 +89,7 @@ public class Tutorial extends Dialogue {
 		switch (next) {
 
 		case 0:
-			DialogueManager.sendNpcChat(player, GUIDE, Emotion.HAPPY_TALK, "Hello @blu@" + player.getUsername() + "</col>, Welcome to Vencillio!", "Would you like a tutorial of our lands?");
+			DialogueManager.sendNpcChat(player, GUIDE, Emotion.HAPPY_TALK, "Hello @blu@" + player.getUsername() + "</col>, Welcome to Web3Scape!", "Would you like a tutorial of our lands?");
 			next++;
 			break;
 		case 1:
@@ -102,7 +102,7 @@ public class Tutorial extends Dialogue {
 			player.send(new SendInterface(51750));
 			break;
 		case 3:
-			nChat(new String[] {"Hello @blu@" + player.getUsername() + "</col>, Welcome to Vencillio!", "Let's get started with the tutorial!"});
+			nChat(new String[] {"Hello @blu@" + player.getUsername() + "</col>, Welcome to Web3Scape!", "Let's get started with the tutorial!"});
 			break;
 		case 4:
 			nChat(new String[] { "Clicking on the World Map will allow you to teleport", "to various different locations.", "Including minigames, PvP, PvM, etc" });
@@ -117,7 +117,7 @@ public class Tutorial extends Dialogue {
 			break;
 		case 7:
 			tele(3098, 3498);
-			nChat(new String[] { "This is our exchange post.", "They are located all over Vencillio.", "You may sell/buy items from other players here." });
+			nChat(new String[] { "This is our exchange post.", "They are located all over Web3Scape.", "You may sell/buy items from other players here." });
 			break;
 		case 8:
 			tele(3096, 3505);
@@ -148,7 +148,7 @@ public class Tutorial extends Dialogue {
 			nChat(new String[] { "If you have any more questions please speak to a", "<img=0>@blu@ Moderator</col> or any other staff member." });
 			break;
 		case 15:
-			nChat(new String[] { "You may view the rules on our forums (@red@www.vencillio.com</col>)", "Make sure to vote to keep the server active." });
+			nChat(new String[] { "You may view the rules on our forums (@red@web3scape.wnd.game</col>)", "Make sure to vote to keep the server active." });
 			break;
 		case 16:
 			nChat(new String[] { "There are tons more of content to explore.", "Good luck with your adventurer!" });
