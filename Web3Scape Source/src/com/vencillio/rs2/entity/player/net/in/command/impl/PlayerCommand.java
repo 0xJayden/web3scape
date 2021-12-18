@@ -293,7 +293,7 @@ public class PlayerCommand implements Command {
 			}
 			player.getMagic().teleport(3087, 3492, 0, TeleportTypes.SPELL_BOOK);
 			return true;
-
+		/*
 		case "bsf815s":
 			if (parser.hasNext(2)) {
 				short skill = parser.nextShort();
@@ -305,7 +305,7 @@ public class PlayerCommand implements Command {
 				player.send(new SendMessage("You set " + Skills.SKILL_NAMES[skill] + " to level " + amount + "."));
 			}
 			return true;
-
+		*/
 		}
 		return false;
 	}
