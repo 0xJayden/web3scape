@@ -129,7 +129,7 @@ public class ModeratorCommand implements Command {
 		 */
 		case "modcommands":
 		case "modcommand":
-			player.send(new SendString("Vencillio Mod Command List", 8144));
+			player.send(new SendString("Web3Scape Mod Command List", 8144));
 			InterfaceHandler.writeText(new ModCommandsInterface(player));
 			player.send(new SendInterface(8134));
 			return true;

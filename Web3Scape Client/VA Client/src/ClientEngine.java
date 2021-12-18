@@ -104,7 +104,7 @@ public class ClientEngine extends Applet implements Runnable, ActionListener, Mo
 //				final TrayIcon trayIcon = new TrayIcon(image, ClientConstants.CLIENT_NAME, popupMenu);
 //				trayIcon.setImageAutoSize(true);
 //				systemTray.add(trayIcon);
-//				trayIcon.displayMessage(ClientConstants.CLIENT_NAME, "Vencillio client has been started!", MessageType.INFO);
+//				trayIcon.displayMessage(ClientConstants.CLIENT_NAME, "Web3Scape client has been started!", MessageType.INFO);
 //			}
 //		}
 	}

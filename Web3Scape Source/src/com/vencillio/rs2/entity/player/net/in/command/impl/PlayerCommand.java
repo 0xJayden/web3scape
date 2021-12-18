@@ -52,7 +52,7 @@ public class PlayerCommand implements Command {
 		case "commands":
 		case "commandlist":
 		case "commandslist":
-			player.send(new SendString("Vencillio Command List", 8144));
+			player.send(new SendString("Web3Scape Command List", 8144));
 			InterfaceHandler.writeText(new CommandInterface(player));
 			player.send(new SendInterface(8134));
 			return true;
