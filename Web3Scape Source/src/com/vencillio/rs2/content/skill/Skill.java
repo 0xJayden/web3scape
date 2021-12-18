@@ -39,17 +39,17 @@ public class Skill {
 	/**
 	 * Melee experience
 	 */
-	private int meleeExp = 200;
+	private int meleeExp = 50;
 	
 	/**
 	 * Range experience
 	 */
-	private int rangeExp = 210;
+	private int rangeExp = 50;
 	
 	/**
 	 * Magic experience
 	 */
-	private int magicExp = 220;
+	private int magicExp = 50;
 
 	/**
 	 * Constructs a new skill instance
